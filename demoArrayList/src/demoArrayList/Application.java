@@ -21,6 +21,25 @@ public class Application {
 		p1.setAge(23);
 		p1.setTelephone("Demande à Vanessa");
 		p1.setEmail("Pierredunors@gmail.com");
+		
+		// On ajoute à notre ArrayList listePersonne l'objet p1 avec la méthode .add
+		
+		listePersonne.add(p1);
+		
+		// Deuxième instance de la Classe Personne
+		
+		Personne p2 = new Personne();
+		
+		// Je donne des valeurs pour notre objet p2
+		
+		p2.setNom("BORDES-NEUVÉGLISE");
+		p2.setPrenom("Constance");
+		p2.setAge(20);
+		p2.setTelephone("Demande à Vanessa aussi");
+		p2.setEmail("blabla@gmail.com");
+		
+		listePersonne.add(p2);
+		
 
 	}
 
